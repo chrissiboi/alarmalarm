@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace WTF
 {
-    class FireTruck
+    class FireTruck : FieldObject
     {
 
-        public static void Truck()
-        {
-            // objeckt truck 
+        public FireTruck(FieldObject[,] map, Vector position, bool isPassable, String type, bool houseStreet, bool firestationStreet) :
+            base(map, position, isPassable, type, houseStreet, firestationStreet) 
+        { 
+        
         }
 
     }

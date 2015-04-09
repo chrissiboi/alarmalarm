@@ -8,10 +8,12 @@ namespace WTF
 {
     class Street : FieldObject
     {
-		public Street(FieldObject[,] map, Vector position) :
-			base(map, position, true, "street") {
-			
-		}
+
+        public Street(FieldObject[,] map, Vector position) :
+            base(map, position, true, "street")
+        {
+
+        }
 
         public FieldObject[,] bulidHouse()
         {
@@ -20,4 +22,5 @@ namespace WTF
 
         }
     }
+
 }

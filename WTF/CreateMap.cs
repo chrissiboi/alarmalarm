@@ -18,72 +18,62 @@ namespace WTF
     class CreateMap
     {
 
+        public static void Print(Canvas CanvasMap, int mapSizeX, int mapSizeY)
+        {
 
-      
-
-            public static void Print(Canvas CanvasMap)
-            {
-               // int[,] Map = 0 - 99 Muss man noch füllen  mit objekttyp ;
-                int left = 1;
-                int top = 1;
-
+            FieldObject[,] map = new FieldObject[mapSizeX, mapSizeY];
+            int left = 1;
+            int top = 1;
                
-                for (int x = 0; x < 10; x++)
+            for (int x = 0; x < mapSizeX; x++)
+            {
+
+                for (int y = 0; y < mapSizeY; y++)
                 {
-                    for (int y = 0; y < 10; y++)
+
+                    Rectangle rectangle = new Rectangle();
+
+                    switch (map[x, y].getObjectType())
                     {
 
-                        Rectangle rectangle = new Rectangle();
-
-                        if (map[x, y] == "streat")
-                        {
+                        case ("street"):
                             rectangle.Fill = new SolidColorBrush(Colors.Gray);
-                        }
-
-                        if (map[x, y] == "house")
-                        {
+                            break;
+                        case ("house"):
                             rectangle.Fill = new SolidColorBrush(Colors.White);
-                        }
-
-                        if (map[x, y] == "tree")
-                        {
+                            break;
+                        case ("tree"):
                             rectangle.Fill = new SolidColorBrush(Colors.Green);
-                        }
-
-                        if (map[x, y] == "firestation")
-                        {
+                            break;
+                        case ("firestation"):
                             rectangle.Fill = new SolidColorBrush(Colors.IndianRed);
-                        }
-
-                        if (map[x, y] == "river")
-                        {
+                            break;
+                        case ("river"):
                             rectangle.Fill = new SolidColorBrush(Colors.Blue);
-                        }
-
-
-
-
-                        rectangle.Stroke = new SolidColorBrush(Colors.Black);
-                        rectangle.Width = 50;
-                        rectangle.Height = 50;
-                        rectangle.SetValue(Canvas.LeftProperty, (double)left);
-                        rectangle.SetValue(Canvas.TopProperty, (double)top);
-                     
-                        CanvasMap.Children.Add(rectangle);
-
-
-                        //-------------------------------------------
-
-                        left = left + 50;
+                            break;
 
                     }
-                    //-----------------------------------------------
-                    top = top + 50;
-                    left = 1;
+
+                    rectangle.Stroke = new SolidColorBrush(Colors.Black);
+                    rectangle.Width = 50;
+                    rectangle.Height = 50;
+                    rectangle.SetValue(Canvas.LeftProperty, (double)left);
+                    rectangle.SetValue(Canvas.TopProperty, (double)top);
+                     
+                    CanvasMap.Children.Add(rectangle);
+
+                    left = left + 50;
+
                 }
+
+                top = top + 50;
+                left = 1;
+
             }
 
         }
 
     }
+
+}
 

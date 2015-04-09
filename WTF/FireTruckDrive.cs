@@ -38,7 +38,7 @@ namespace WTF
 
                     Rectangle rectangle = new Rectangle();
 
-                    if ((kürzesterweg.x == x) && kürzesterweg.y == y)
+                    if ((x == x) && y == y)
                     {
                         rectangle.Fill = new SolidColorBrush(Colors.DarkRed);
 
@@ -91,7 +91,7 @@ namespace WTF
 
                     Rectangle rectangle = new Rectangle();
 
-                    if ((kürzesterweg.x == x) && kürzesterweg.y == y)
+                    if ((x == x) && y == y)
                     {
                         rectangle.Fill = new SolidColorBrush(Colors.DarkRed);
 

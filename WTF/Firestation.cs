@@ -9,7 +9,7 @@ namespace WTF
     class Firestation : FieldObject
     {
         public Firestation(FieldObject[,] map, Vector position) :
-		base(map, position, true, "firestation") { }
+            base(map, position, true, "firestation") { }
     }
 }
 

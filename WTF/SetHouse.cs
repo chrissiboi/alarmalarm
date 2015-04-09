@@ -23,7 +23,7 @@ namespace WTF
             // alle normal häuser finden und in  haus normal array rein 
             int[] hausnormal;
             Random rnd = new Random();
-            int brand = rnd.Next(0, hausnormal.Length);
+            int brand = rnd.Next(0, 1);
             int brenendeshaus;
             int zähler = 1;
             int top = 1;
@@ -31,7 +31,7 @@ namespace WTF
 
 
 
-            brenendeshaus = hausnormal[brand];
+            //brenendeshaus = hausnormal[brand];
 
             // hausobj und/oder straße st daneben isnormal auf false setzen  
 
@@ -48,7 +48,7 @@ namespace WTF
 
                     Rectangle rectangle = new Rectangle();
 
-                    if (brenendeshaus == zähler)
+                    if (true)//brenendeshaus == zähler)
                     {
                         rectangle.Fill = new SolidColorBrush(Colors.Red);
 
@@ -93,7 +93,7 @@ namespace WTF
                 for (int y = 0; y < 10; y++)
                 {
 
-                    if (brenendeshaus == zähler)
+                    if (true)//brenendeshaus == zähler)
                     {
                         rectangle.Fill = new SolidColorBrush(Colors.White);
                         rectangle.Stroke = new SolidColorBrush(Colors.Black);

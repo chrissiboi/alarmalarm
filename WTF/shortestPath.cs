@@ -16,5 +16,4 @@ namespace WTF
             return null;
         }
     }
-    }
 }
