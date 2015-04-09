@@ -1,0 +1,29 @@
+﻿<Properties StartupItem="WTF/WTF.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WTF/MainWindow.xaml.cs">
+    <Files>
+      <File FileName="WTF/FieldObject.cs" Line="48" Column="48" />
+      <File FileName="WTF/Firestation.cs" Line="42" Column="42" />
+      <File FileName="WTF/FireTruck.cs" Line="1" Column="1" />
+      <File FileName="WTF/FireTruckDrive.cs" Line="1" Column="1" />
+      <File FileName="WTF/FireTruckIsAvailable.cs" Line="1" Column="1" />
+      <File FileName="WTF/MainWindow.xaml.cs" Line="40" Column="40" />
+      <File FileName="WTF/Street.cs" Line="52" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="WTF" expanded="True">
+            <Node name="MainWindow.xaml" expanded="True">
+              <Node name="MainWindow.xaml.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

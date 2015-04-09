@@ -1,0 +1,9 @@
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\bin\Debug\WTF.exe.config
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\WTF.csprojResolveAssemblyReference.cache
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\MainWindow.baml
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\MainWindow.g.cs
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\App.g.cs
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\WTF_MarkupCompile.cache
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\WTF.g.resources
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\WTF.Properties.Resources.resources
+c:\users\pmiller.woco-dom\documents\visual studio 2013\Projects\WTF\WTF\obj\Debug\WTF.csproj.GenerateResource.Cache
